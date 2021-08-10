@@ -20,7 +20,7 @@ def index(request):
         "entries": util.list_entries()
     })
 
-#define urls entrys
+#define urls entries
 def entry(request, entry):
     markdowner = Markdown()
     entryPage = util.get_entry(entry)
