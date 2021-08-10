@@ -80,7 +80,7 @@ def edit(request, entry):
             "entryTitle": form.fields["title"].initial
         })        
 
-#to random a pages
+#to random a pagess
 def random(request):
     entries = util.list_entries()
     randomEntry = secrets.choice(entries)
